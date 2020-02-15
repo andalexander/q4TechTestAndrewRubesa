@@ -3,11 +3,12 @@
 }
 
 #q4Wrapper {
-  background-color: #2A3035;
+  background-color: #2a3035;
   font-family: "Roboto", sans-serif;
   color: white;
 }
-#q4Wrapper h1, #q4Wrapper h3 {
+#q4Wrapper h1,
+#q4Wrapper h3 {
   margin: 0;
 }
 #q4Wrapper h1 {
@@ -18,8 +19,9 @@
   line-height: 20px;
   text-transform: uppercase;
 }
-#q4Wrapper header, #q4Wrapper footer {
-  background-color: #22272B;
+#q4Wrapper header,
+#q4Wrapper footer {
+  background-color: #22272b;
 }
 #q4Wrapper header {
   padding: 20px;
@@ -60,5 +62,18 @@
 
 /* Begin styling the report items here! */
 .reports {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.reports_item {
+  width: calc((100% / 3) - 30px);
+  margin: 15px;
+}
+
+/* 768px media query */
+@media (max-width: 768px) {
+  .reports_item {
+    width: calc((100% / 2) - 30px);
+  }
 }
