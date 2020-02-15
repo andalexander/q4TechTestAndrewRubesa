@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Q4 Inc.](https://q4inc.com/)
 
 ## Front-end Developer Assessment
@@ -61,3 +62,7 @@ $ npm start
 
 Otherwise, simply open the `index.html` file located within the `src` folder
 in your favourite web browser.
+=======
+# andrewRubesaQ4TechTest
+Repository for the Q4 technical assessment. 
+>>>>>>> d9a807b594beef8f798f737c126b01689a81bd23
